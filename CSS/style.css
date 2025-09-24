@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background: #32637c;
+    color: #cfd8dc;
+    text-align: center;
+}
+
+.destaque {
+    color: #4fc3f7;
+    font-weight: bold;
+}
+
+#lista {
+    background-color: #375b6d;
+    border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+    padding: 16px 24px;
+    margin: 20px auto 0 auto;
+    border: 1px solid #263238;
+    max-width: 400px;
+    text-align: left;
+}
+
+#lista li {
+    background: #455a64;
+    margin-bottom: 8px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    font-size: auto;
+    color: #cfd8dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30px;
+}
+
+#lista li:hover {
+    background: #4b616d;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: #90a4ae;
+    background: #263238 !important;
+}
+
+button, .btnRemover {
+    background: #607d8b;
+    color: #cfd8dc;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 18px;
+    margin: 6px 4px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(44, 62, 80, 0.08);
+
+}
+
+button:hover, .btnRemover:hover {
+    background: #263238;
+    color: #b2ebf2;
+}
+
+.btnRemover {
+    margin-left: 12px;
+    padding: 4px 10px;
+    font-size: 0.95em;
+    background: #455a64;
+    color: #b2ebf2;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.btnRemover:hover {
+    background: #607d8b;
+    color: #fff;
+}
+#textoDigitar {
+    font-size: 1.2em;
+    margin-right: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
