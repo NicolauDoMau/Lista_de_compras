@@ -82,7 +82,7 @@ document.getElementById("btnStatus")?.addEventListener("click", function () {
   }
   alert(
     `Total de itens: ${total}\n` +
-    `Itens que faltam comprar: ${nomesFaltam.join(", ")}\n` +
-    `Itens já comprados:  ${nomesComprados.join(", ")}`
+    `Tarefas a concluir: ${nomesFaltam.join(", ")}\n` +
+    `Tarefas já concluidas:  ${nomesComprados.join(", ")}`
   );
 });
