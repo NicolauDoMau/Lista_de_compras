@@ -2,7 +2,7 @@ let titulo = window.document.getElementById("titulo")
 let textEntrada = document.querySelector("#entrada")
 let lista = document.querySelector("#lista")
 
-titulo.innerHTML = "Lista de Compras"
+titulo.innerHTML = "GERENCIADOR DE TAREFAS"
 
 document.getElementById("btnAdicionar").addEventListener("click", function () {
   if (textEntrada.value.trim() !== "") {
